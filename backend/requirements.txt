@@ -8,3 +8,4 @@ onnxruntime==1.23.0
 requests==2.32.3
 Werkzeug==3.0.4
 flask-pymongo==3.0.1
+gunicorn==21.2.0
