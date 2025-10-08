@@ -1,4 +1,4 @@
-# 🧠 Node + Python common ignores
+# Node + Python ignores
 
 # Node
 node_modules/
@@ -24,12 +24,7 @@ uploads/
 *.sqlite3
 *.db
 
-# IDE & system files
+# IDE & system
 .vscode/
 .DS_Store
 Thumbs.db
-
-# Local data
-photoEditorImage
-photoEditorMeta
-localforage
