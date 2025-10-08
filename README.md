@@ -16,3 +16,5 @@ npm run dev
 
 
 Open frontend URL and test.
+# photo-video-editor
+Photo &amp; Video Editing Web App using Flask + React
