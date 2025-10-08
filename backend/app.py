@@ -93,6 +93,10 @@ def auto_enhance():
 
 if __name__ == "__main__":
     from flask_cors import CORS
+    import os
+
     CORS(app)
-    app.run(host="0.0.0.0", port=10000)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
+
 
